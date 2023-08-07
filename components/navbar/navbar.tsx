@@ -9,12 +9,12 @@ type Routes = {
 
 export default function Navbar() {
 	const routes: Routes[] = [
-		{ name: "HOME", href: "/" },
-		{ name: "GAMEROOM", href: "/gameroom" },
-		{ name: "ABOUT", href: "/about" },
+		{ name: "home", href: "/" },
+		{ name: "gameroom", href: "/gameroom" },
+		{ name: "about", href: "/about" },
 	];
 	return (
-		<header className={`p-4 bg-brand-purple`}>
+		<header className={`p-4 bg-brand-purple font-aeonik`}>
 			<nav className="container flex items-center justify-between px-2 mx-auto">
 				<div>
 					<ul className="flex bg-brand-lemon w-fit shadow-[0px_0px_68px_35px_rgba(122,_113,_254,_0.15)] rounded-md text-sm font-semibold overflow-hidden">

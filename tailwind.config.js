@@ -11,7 +11,11 @@ module.exports = {
       colors: {
         "brand-purple": "#7A71FE",
         "brand-lemon": "#E3F746",
-      }
+      },
+      fontFamily: {
+        'aeonik': ['aeonik', 'sans-serif'],
+        'blogh': ['blogh', 'sans-serif'],
+      },
     },
   },
   plugins: [],

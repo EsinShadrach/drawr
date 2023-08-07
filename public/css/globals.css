@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+	font-family: "Aeonik";
+	src: url("../fonts/Aeonik/AeonikTRIAL-Regular.otf") format("opentype");
+}
+
+@font-face {
+	font-family: "blogh";
+	src: url("../fonts/Blogh/Blogh.otf") format("opentype");
+}
