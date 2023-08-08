@@ -14,7 +14,9 @@ export default function Navbar() {
 		{ name: "about", href: "/about" },
 	];
 	return (
-		<header className={`p-4 bg-brand-purple font-aeonik`}>
+		<header
+			className={`p-4 bg-brand-purple font-aeonik backdrop-blur-md fixed w-full lg:relative`}
+		>
 			<nav className="container flex items-center justify-between px-2 mx-auto">
 				<div>
 					<ul className="flex bg-brand-lemon w-fit shadow-[0px_0px_68px_35px_rgba(122,_113,_254,_0.15)] rounded-md text-sm font-semibold overflow-hidden">
