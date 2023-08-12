@@ -25,7 +25,7 @@ export function HeroSection() {
 								</div>
 							</div>
 						</h1>
-						<P className="lowercase first-letter:uppercase mt-4 max-w-lg">
+						<P  className="lowercase first-letter:uppercase mt-4 max-w-lg">
 							RUNNING A RAFFLE EVENT OR AN ONLINE GAMING EVENT
 							SHOULDN&apos;T BE A LOGISTICAL NIGHTMARE. WITH
 							DRAWR, WE CAN HELP YOU TAKE CONTROL OF YOUR GAMING
