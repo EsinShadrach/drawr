@@ -1,13 +1,13 @@
 import { Sponsors } from "./Sponsors";
 import { HeroSection } from "./HeroSection";
-import Feature from "./feature";
+import Features from "./features";
 
 export default function Home() {
   return (
     <main className="mx-auto mb-20">
       <HeroSection />
       <Sponsors />
-      <Feature />
+      <Features />
     </main>
   );
 }
