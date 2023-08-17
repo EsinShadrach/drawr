@@ -1,7 +1,7 @@
 import React from "react";
 import { FireIcon, GamePad, PurpleFireIcon } from "./icons";
 import { H3 } from "@/utils/typography";
-import game_placeholder from "./gameplace.png";
+import game_placeholder from "./images/gameplace.png";
 import Image from "next/image";
 
 export function Gaming() {

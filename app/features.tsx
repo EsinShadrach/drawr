@@ -1,8 +1,8 @@
 import { H1, H2, P } from "@/utils/typography";
-import bluryFace from "./bluryface.png";
-import createAcc from "./account.png";
-import raffle from "./raffle.png";
-import ticket from "./ticket.png";
+import bluryFace from "./images/bluryface.png";
+import createAcc from "./images/account.png";
+import raffle from "./images/raffle.png";
+import ticket from "./images/ticket.png";
 import React from "react";
 import Image from "next/image";
 

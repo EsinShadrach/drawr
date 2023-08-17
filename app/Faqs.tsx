@@ -1,7 +1,7 @@
 "use client";
 import React, { useState } from "react";
 import { ChevronUpIcon, ChevronDownIcon } from "@heroicons/react/20/solid";
-import faqsmemo from "./faqsmemo.png";
+import faqsmemo from "./images/faqsmemo.png";
 import Image from "next/image";
 
 interface Faq {
