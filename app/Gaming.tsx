@@ -80,11 +80,11 @@ export function Gaming() {
                   <div className={`absolute z-20 right-2 top-[230px]`}>
                     <GamePad />
                   </div>
-                  <div className="ml-4">
+                  <div className="ml-4 divide-y-2">
                     <h3
                       className={`font-blogh mt-3  text-[40px] text-[#7A71FE] font-normal leading-[32px] -tracking-[0.801px]`}
                     >
-                      Call Of Duty
+                      GTA VI:
                     </h3>
                     <p className="mt-[21px] text-sm leading-[26px]">
                       Lorem Ipsum is simply dummy text of the printing and
@@ -120,7 +120,7 @@ export function Gaming() {
                     <h3
                       className={`font-blogh mt-3  text-[40px] text-[#7A71FE] font-normal leading-[32px] -tracking-[0.801px]`}
                     >
-                      Call Of Duty
+                      PUBG Mobile
                     </h3>
                     <p className="mt-[21px] text-sm leading-[26px]">
                       Lorem Ipsum is simply dummy text of the printing and

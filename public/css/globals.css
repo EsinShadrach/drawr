@@ -2,12 +2,32 @@
 @tailwind components;
 @tailwind utilities;
 
-@font-face {
-	font-family: "Aeonik";
-	src: url("../fonts/Aeonik/AeonikTRIAL-Regular.otf") format("opentype");
+* {
+  margin: 0;
+  padding: 0;
+  /* outline: 2px solid red; */
 }
 
 @font-face {
-	font-family: "blogh";
-	src: url("../fonts/Blogh/Blogh.otf") format("opentype");
+  font-family: "Aeonik";
+  src: url("../fonts/Aeonik/AeonikTRIAL-Regular.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "blogh";
+  src: url("../fonts/Blogh/Blogh.otf") format("opentype");
+}
+
+@keyframes marquee {
+  0% {
+    transform: translateZ(0);
+  }
+  100% {
+    transform: translate3d(-100%, 0, 0);
+  }
+}
+
+.animate-marquee {
+  animation: marquee 15s linear infinite;
+  animation-direction: alternate;
 }
