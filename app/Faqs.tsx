@@ -82,11 +82,11 @@ const FAQs = () => {
   };
 
   return (
-    <div className="items-center justify-center mx-auto mt-[71px]">
+    <div className="items-center justify-center mx-auto mt-10">
       {faqs.map((faq, index) => (
         <div
-          className={`w-[350px] md:w-[1316px] bg-[#F0F0F0] p-6 my-[35px] transition-all duration-300 ease-in-out ${
-            faq.isOpen ? "h-[160px] md:h-[140px]" : "h-[70px] md:h-[70px] pb-4" // Set initial height and expanded height
+          className={`w-[350px] md:w-full border-[1px] border-solid border-[#eee] bg-[#F0F0F0] rounded-[14px] p-4 my-[24px] transition-all duration-300 ease-in-out ${
+            faq.isOpen ? "h-[160px] md:h-[140px]" : "h-[70px] md:h-[70px]" // Set initial height and expanded height
           }`}
           key={index}
         >
@@ -94,17 +94,17 @@ const FAQs = () => {
             className="faq-question flex justify-between items-center cursor-pointer text-blue-600 hover:text-blue-800"
             onClick={() => handleToggle(index)}
           >
-            <span className="text-[14px] md:text-[28px] leading-[24px] font-aeonik font-[700] text-[#001534] py-2 ">
+            <span className="text-[14px] md:text-[22px] leading-[33px] font-jakarta font-[700] text-[#001534] pl-[30px]s pt-[20px]s py-[20px]s">
               {faq.question}
             </span>
             {faq.isOpen ? (
-              <ChevronUpIcon className="h-[30px] w-[30px] md:h-[40px] md:w-[40px] text-[#7A71FE]" />
+              <ChevronUpIcon className="h-[30px] w-[30px] md:h-[40px] md:w-[40px] text-[#001534]" />
             ) : (
-              <ChevronDownIcon className="w-[30px] h-[30px] md:h-[40px] md:w-[40px] text-[#7A71FE]" />
+              <ChevronDownIcon className="w-[30px] h-[30px] md:h-[40px] md:w-[40px] text-[#001534]" />
             )}
           </div>
           <div
-            className={`text-[12px] md:text-[18px]  leading-[30px] w- md:w-[700px] text-[#A1A1A] mt-2 ${
+            className={`text-[12px] md:text-[18px] font-figtree leading-[30px] w-[310px] md:w-3/4 text-[#A1A1A] mt-2 ${
               faq.isOpen ? "block opacity-100" : "hidden opacity-25"
             } text-gray-800`}
           >

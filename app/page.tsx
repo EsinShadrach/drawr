@@ -1,6 +1,6 @@
 import { Sponsors } from "./Sponsors";
 import { HeroSection } from "./HeroSection";
-import { Features } from "./features";
+import { Features } from "./Features";
 import { Gaming } from "./Gaming";
 import { JoinClub } from "./JoinClub";
 import { Awards } from "./Awards";
