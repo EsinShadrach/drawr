@@ -1,6 +1,7 @@
 import { Sponsors } from "./Sponsors";
 import { HeroSection } from "./HeroSection";
-import Features from "./features";
+import { Features } from "./Features";
+import { Gaming } from "./Gaming";
 
 export default function Home() {
   return (
@@ -8,6 +9,7 @@ export default function Home() {
       <HeroSection />
       <Sponsors />
       <Features />
+      <Gaming />
     </main>
   );
 }

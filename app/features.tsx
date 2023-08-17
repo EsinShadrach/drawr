@@ -6,7 +6,7 @@ import ticket from "./ticket.png";
 import React from "react";
 import Image from "next/image";
 
-export default function Features() {
+export function Features() {
   return (
     <section className="mt-[176px]">
       <div className="relative bg-red-400s">
