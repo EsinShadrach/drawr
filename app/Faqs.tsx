@@ -18,7 +18,7 @@ export function Faqs() {
           <h2
             className={`max-w-[932px] text-black font-aeonik text-[110px] leading-[90px] font-bold -tracking-[5.5px]`}
           >
-            Frequently Asked Questions
+            Frequently Asked Questionsz\\
           </h2>
         </div>
         <Image
@@ -94,7 +94,7 @@ const FAQs = () => {
             className="faq-question flex justify-between items-center cursor-pointer text-blue-600 hover:text-blue-800"
             onClick={() => handleToggle(index)}
           >
-            <span className="text-[14px] md:text-[22px] leading-[33px] font-jakarta font-[700] text-[#001534] pl-[30px]s pt-[20px]s py-[20px]s">
+            <span className="text-[14px] md:text-[22px] leading-[33px] font-aeonik font-[700] text-[#001534] pl-[30px]s pt-[20px]s py-[20px]s">
               {faq.question}
             </span>
             {faq.isOpen ? (
@@ -104,7 +104,7 @@ const FAQs = () => {
             )}
           </div>
           <div
-            className={`text-[12px] md:text-[18px] font-figtree leading-[30px] w-[310px] md:w-3/4 text-[#A1A1A] mt-2 ${
+            className={`text-[12px] md:text-[18px] leading-[30px] w-[310px] md:w-3/4 text-[#A1A1A] mt-2 ${
               faq.isOpen ? "block opacity-100" : "hidden opacity-25"
             } text-gray-800`}
           >

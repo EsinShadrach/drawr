@@ -5,6 +5,7 @@ import { Gaming } from "./Gaming";
 import { JoinClub } from "./JoinClub";
 import { Awards } from "./Awards";
 import { Faqs } from "./Faqs";
+import { Call2Action } from "./Call2Action";
 
 export default function Home() {
   return (
@@ -16,6 +17,7 @@ export default function Home() {
       <JoinClub />
       <Awards />
       <Faqs />
+      <Call2Action />
     </main>
   );
 }

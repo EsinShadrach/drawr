@@ -1,6 +1,6 @@
 import React from "react";
 import { FireIcon, GamePad, PurpleFireIcon } from "./icons";
-import { H3 } from "@/utils/typography";
+import { H3, P } from "@/utils/typography";
 import game_placeholder from "./images/gameplace.png";
 import Image from "next/image";
 
@@ -30,7 +30,7 @@ export function Gaming() {
             </div>
             <div className="flex items-center gap-[30px]">
               <div className="pt-[300px]">
-                <div className="relative bg-white rounded-[12px] h-[547px] w-[405px] p-2">
+                <div className="relative bg-white rounded-[12px] h-[547px] w-[405px] P-2">
                   <Image
                     src={game_placeholder}
                     alt="create account illustration"
@@ -45,28 +45,28 @@ export function Gaming() {
                     <GamePad />
                   </div>
                   <div className="ml-4">
-                    <h3
+                    <H3
                       className={`font-blogh mt-3  text-[40px] text-[#7A71FE] font-normal leading-[32px] -tracking-[0.801px]`}
                     >
                       Call Of Duty
-                    </h3>
-                    <p className="mt-[21px] text-sm leading-[26px]">
+                    </H3>
+                    <P className="mt-[21px] text-sm leading-[26px]">
                       Lorem Ipsum is simply dummy text of the printing and
                       typesetting industry. Lorem Ipsum has been the industry
                       {"'"}s standard dummy text ever since the 1500s
-                    </p>
+                    </P>
                   </div>
 
-                  <div className="ml-4 mt-[28px] flex items-center gap-4 mt-[16px]">
+                  <div className="ml-4 mt-[28px] flex items-center gap-4">
                     <PurpleFireIcon />
-                    <p className="font-semibold text-[13.7px] text-[#000000CC] ">
+                    <P className="font-semibold text-[13.7px] text-[#000000CC] ">
                       +40,321 people are playing this game
-                    </p>
+                    </P>
                   </div>
                 </div>
               </div>
               <div className="pt-[300px]">
-                <div className="relative bg-white rounded-[12px] h-[547px] w-[405px] p-2">
+                <div className="relative bg-white rounded-[12px] h-[547px] w-[405px] P-2">
                   <Image
                     src={game_placeholder}
                     alt="create account illustration"
@@ -81,28 +81,28 @@ export function Gaming() {
                     <GamePad />
                   </div>
                   <div className="ml-4 divide-y-2">
-                    <h3
+                    <H3
                       className={`font-blogh mt-3  text-[40px] text-[#7A71FE] font-normal leading-[32px] -tracking-[0.801px]`}
                     >
                       GTA VI:
-                    </h3>
-                    <p className="mt-[21px] text-sm leading-[26px]">
+                    </H3>
+                    <P className="mt-[21px] text-sm leading-[26px]">
                       Lorem Ipsum is simply dummy text of the printing and
                       typesetting industry. Lorem Ipsum has been the industry
                       {"'"}s standard dummy text ever since the 1500s
-                    </p>
+                    </P>
                   </div>
 
-                  <div className="ml-4 mt-[28px] flex items-center gap-4 mt-[16px]">
+                  <div className="ml-4 mt-[28px] flex items-center gap-4">
                     <PurpleFireIcon />
-                    <p className="font-semibold text-[13.7px] text-[#000000CC] ">
+                    <P className="font-semibold text-[13.7px] text-[#000000CC] ">
                       +40,321 people are playing this game
-                    </p>
+                    </P>
                   </div>
                 </div>
               </div>
               <div className="pt-[300px]">
-                <div className="relative bg-white rounded-[12px] h-[547px] w-[405px] p-2">
+                <div className="relative bg-white rounded-[12px] h-[547px] w-[405px] P-2">
                   <Image
                     src={game_placeholder}
                     alt="create account illustration"
@@ -117,23 +117,23 @@ export function Gaming() {
                     <GamePad />
                   </div>
                   <div className="ml-4">
-                    <h3
+                    <H3
                       className={`font-blogh mt-3  text-[40px] text-[#7A71FE] font-normal leading-[32px] -tracking-[0.801px]`}
                     >
                       PUBG Mobile
-                    </h3>
-                    <p className="mt-[21px] text-sm leading-[26px]">
+                    </H3>
+                    <P className="mt-[21px] text-sm leading-[26px]">
                       Lorem Ipsum is simply dummy text of the printing and
                       typesetting industry. Lorem Ipsum has been the industry
                       {"'"}s standard dummy text ever since the 1500s
-                    </p>
+                    </P>
                   </div>
 
-                  <div className="ml-4 mt-[28px] flex items-center gap-4 mt-[16px]">
+                  <div className="ml-4 mt-[28px] flex items-center gap-4">
                     <PurpleFireIcon />
-                    <p className="font-semibold text-[13.7px] text-[#000000CC] ">
+                    <P className="font-semibold text-[13.7px] text-[#000000CC] ">
                       +40,321 people are playing this game
-                    </p>
+                    </P>
                   </div>
                 </div>
               </div>
