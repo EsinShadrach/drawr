@@ -64,7 +64,7 @@ function GameCard({ name }: { name: string }) {
 					{name}
 				</div>
 				<div className="pt-2 border-t border-black/20">
-					<small className="line-clamp-4">
+					<small className="text-xs line-clamp-4">
 						Lorem Ipsum is simply dummy text of the printing and
 						typesetting industry. Lorem Ipsum has been the
 						industry&apos;s standard dummy text ever since the
@@ -103,7 +103,7 @@ function GameCard({ name }: { name: string }) {
 							/>
 						</dd>
 					</div>
-					<small className="ml-2 overflow-hidden text-xs whitespace-nowrap text-ellipsis">
+					<small className="ml-2 overflow-hidden text-xs whitespace-nowrap text-ellipsis text-slate-400">
 						+40,321 people are playing this game
 					</small>
 				</div>
