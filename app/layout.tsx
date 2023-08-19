@@ -39,7 +39,6 @@ const poppins = Poppins({
 });
 
 export const metadata: Metadata = {
-	metadataBase: new URL("https://drawr.vercerl.app"),
 	title: "DRAWR: Simplifying Your Online Raffle Draw - The Ultimate Gaming Event Solution",
 	description: description,
 	icons: { apple: "/apple-touch-icon.png", icon: "" },
@@ -47,14 +46,13 @@ export const metadata: Metadata = {
 	keywords: keywords,
 	openGraph: {
 		type: "website",
-		url: "/",
+		url: "https://drawr.com",
 		title: "DRAWR: Simplifying Your Online Raffle Draw - The Ultimate Gaming Event Solution",
 		description: description,
 		siteName: "Drawr",
 		locale: "en_UK",
 	},
 	twitter: {
-		site: "/",
 		title: "DRAWR: Simplifying Your Online Raffle Draw - The Ultimate Gaming Event Solution",
 		creator: "@drawr",
 		card: "summary_large_image",
