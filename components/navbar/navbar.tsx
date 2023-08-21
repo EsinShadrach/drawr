@@ -23,7 +23,7 @@ export default function Navbar() {
 						{routes.map((route, index) => (
 							<li key={index}>
 								<NavLink href={route.href}>
-									{(isActive) => (
+									{({ isActive }) => (
 										<div className="p-3 px-10 uppercase transition-all duration-300 hover:bg-black/5">
 											{route.name}
 										</div>
