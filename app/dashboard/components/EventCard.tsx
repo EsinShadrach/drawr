@@ -4,8 +4,8 @@ import { FilledButton } from "@/utils/buttons";
 
 export default function EventCard() {
   return (
-    <div className="bg-brand-purple relative rounded-xl w-full mx-auto h-56 px-4 py-4 flex flex-col justify-between text-white">
-      <div className="z-20 w-full h-full">
+    <div className="bg-brand-purple relative rounded-3xl w-full mx-auto h-56 px-4 py-4 text-white">
+      <div className="z-20 w-full h-full flex flex-col justify-between">
       <div className="max-w-48">
         <H3 className="capitalize mb-0 text-4xl text-white font-blogh font-semibold ">
           {"spagfest raffle event"}

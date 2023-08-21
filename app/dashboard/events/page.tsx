@@ -20,7 +20,7 @@ export default function Eventspage() {
             <p className="capitalize flex-[1]">ongoing events</p>
             <p className="capitalize flex-[1]">completed</p>
         </div>
-        <div className="px-3 divide-y-[1rem]">
+        <div className="px-3 space-y-[1rem]">
 
         {
             // Change key Later
