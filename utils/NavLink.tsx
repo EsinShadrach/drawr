@@ -10,7 +10,8 @@ function NavLink({ href, children }: NavLinkProps) {
 		path === href ? setIsActive(true) : setIsActive(false);
 	}, [href, path]);
 
-	return <Link href={href}>{children({ isActive })}</Link>;
+	// return <Link href={href}>{children({ isActive })}</Link>;
+	return <Link href={href}>{children}</Link>;
 }
 
 export default NavLink;
