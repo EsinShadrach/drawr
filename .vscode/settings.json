@@ -1,8 +1,5 @@
 {
-	"cSpell.words": [
-		"Drawr",
-		"GAMEROOM"
-	],
-	"workbench.colorTheme": "Bearded Theme Vivid Purple",
+	"cSpell.words": ["Drawr", "GAMEROOM"],
+	"workbench.colorTheme": "Material Theme Ocean",
 	"editor.fontSize": 13
 }
