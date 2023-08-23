@@ -1,21 +1,11 @@
-import {EventCard} from "../components"
-import {Metadata} from "next"
-import { redirect } from "next/navigation"
+"use client";
+import { redirect } from "next/navigation";
+import { useEffect } from "react";
 
-let cards :string[] = []
+export default function EventsPage() {
+	useEffect(() => {
+		redirect("events/ongoing");
+	}, []);
 
-for(let i=0; i<=4; i++){
-cards.push(`card-${i+1}`)}
-
-
-
-export const metadata :Metadata ={
-    title: "Dashboard | Events",
-    description: "...",
-}
-
-export default function Eventspage({children}: { children: React.ReactNode }) {
-  redirect("events/ongoing")
-
- 
+	return <div className="">Redirecting</div>;
 }
