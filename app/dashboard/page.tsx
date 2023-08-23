@@ -1,7 +1,7 @@
 import {Metadata} from "next"
+import { redirect } from "next/navigation"
+
 
 export default function DashboardPage() {
-  return (
-    <div>page</div>
-  )
+  redirect("dashboard/events/ongoing")
 }

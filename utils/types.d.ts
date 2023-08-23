@@ -1,11 +1,12 @@
 interface NavLinkProps {
-	href: string;
-	children: ({ isActive }: { isActive: boolean }) => React.ReactNode;
+  href: string;
+  className?: HTMLAttributes<HTMLDivElement>["className"];
+  children: ({ isActive }: { isActive: boolean }) => React.ReactNode;
 }
 
 interface ButtonProps {
 	children: React.ReactNode;
-	className: string;
+	className?: string;
 	color?: "purple" | "lemon" | "black" | "transparent";
 	onClick: Function;
 }

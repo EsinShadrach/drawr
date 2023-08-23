@@ -6,26 +6,26 @@ export default function EventCard() {
   return (
     <div className="bg-brand-purple relative rounded-3xl w-full mx-auto h-56 px-4 py-4 text-white">
       <div className="z-20 w-full h-full flex flex-col justify-between">
-      <div className="max-w-48">
-        <H3 className="capitalize mb-0 text-4xl text-white font-blogh font-semibold ">
-          {"spagfest raffle event"}
-        </H3>
-        <P>Hosted By {"Olawale Spagfest"}</P>
+        <div className="max-w-48">
+          <H3 className="capitalize mb-0 text-4xl text-white font-blogh font-semibold ">
+            {"spagfest raffle event"}
+          </H3>
+          <P>Hosted By {"Olawale Spagfest"}</P>
+        </div>
+        <div className="flex justify-between items-center ">
+          <P className="capitalize">
+            Ends In {"2"}
+            {"hours"}
+          </P>
+          <FilledButton
+            onClick={() => {}}
+            color="black"
+            className="capitalize font-bold"
+          >
+            view
+          </FilledButton>{" "}
+        </div>
       </div>
-      <div className="flex justify-between items-center ">
-        <P className="capitalize">
-          Ends In {"2"}
-          {"hours"}
-        </P>
-        <FilledButton
-          onClick={() => {}}
-          color="black"
-          className="capitalize font-bold"
-        >
-          view
-        </FilledButton>{" "}
-      </div>
-    </div>
 
       <Image
         src="/images/person.png"

@@ -1,5 +1,6 @@
 import {EventCard} from "../components"
 import {Metadata} from "next"
+import { redirect } from "next/navigation"
 
 let cards :string[] = []
 
@@ -13,20 +14,8 @@ export const metadata :Metadata ={
     description: "...",
 }
 
-export default function Eventspage() {
-  return (
-    <div className="mt-6">
-        <div className="flex items-center gap-4 justify-around w-full text-center mx-auto mb-6 whitespace-nowrap" >
-            <p className="capitalize flex-[1]">ongoing events</p>
-            <p className="capitalize flex-[1]">completed</p>
-        </div>
-        <div className="px-3 space-y-[1rem]">
+export default function Eventspage({children}: { children: React.ReactNode }) {
+  redirect("events/ongoing")
 
-        {
-            // Change key Later
-            cards.map(card=> <EventCard key={card}/>)
-        }
-        </div>
-    </div>
-  )
+ 
 }
