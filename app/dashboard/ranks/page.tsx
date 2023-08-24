@@ -19,6 +19,7 @@ export const metadata :Metadata ={
 
 export default function RanksPage() {
   return (
+      <div className="mt-6 md:h-full max-h-[32rem] md:overflow-y-hidden md:pb-3">
     <div className="md:flex md:gap-3 md:items-center px-4 md:pr-1 md:h-full">
       <div className="hidden md:block flex-[1] w-full h-full relative bg-brand-purple overflow-clip rounded-lg">
         <div className="md:w-full md:h-full absolute">
@@ -36,6 +37,7 @@ export default function RanksPage() {
           <RankTile key={rank} name="kvngz" rank={i + 1} />
         ))}
       </div>
+    </div>
     </div>
   );
 }
