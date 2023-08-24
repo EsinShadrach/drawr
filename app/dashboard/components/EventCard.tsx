@@ -34,8 +34,6 @@ export default function EventCard() {
           src="/images/standing-avatar.png"
           alt=""
           fill
-          // height={100}
-          // width={100}
           className="object-cover"
         />
       </div>

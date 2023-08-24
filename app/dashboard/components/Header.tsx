@@ -5,7 +5,7 @@ import DashBoardNav from './Nav';
 
 export default function Header() {
   return (
-    <header className="h-16 border-b-2 flex items-center relative px-4">
+    <header className="h-16 border-b-2 flex items-center relative p-4">
       <h1 className="capitalize flex-1 text-center md:text-left h-fit text-3xl font-extrabold ">
         Dashboard
       </h1>
@@ -15,7 +15,7 @@ export default function Header() {
       <BellAlertIcon
         width={35}
         height={35}
-        className="absolute_ right-3_ sm:right-6_ self-center ml-auto fill-brand-purple active:scale-95"
+        className="self-center ml-auto fill-brand-purple active:scale-95"
       />
     </header>                   
   );

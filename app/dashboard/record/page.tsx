@@ -8,22 +8,24 @@ export const metadata :Metadata ={
 
 export default function RecordPage() {
   return (
-    <div className="px-3 space-y-4 md:space-y-0 md:flex md:items-center md:gap-3">
-      <div className="relative flex flex-col w-full px-4 pt-8 mx-auto text-white bg-brand-purple rounded-3xl h-80">
-        <div className="flex-[1]">
-          <p className="font-bold text-lg">Top engagement on games</p>
-          <div className="w-fit mx-auto mt-9 relative">
-            <small className="capitalize -ml-7 absolute -top-2">Total</small>
-            <p className="text-3xl font-bold">{"2,178"}</p>
+    <div className="mt-6">
+      <div className="px-3 space-y-4 md:space-y-0 md:flex md:items-center md:gap-3">
+        <div className="relative flex flex-col w-full px-4 pt-8 mx-auto text-white bg-brand-purple rounded-3xl h-80">
+          <div className="flex-[1]">
+            <p className="font-bold text-lg">Top engagement on games</p>
+            <div className="w-fit mx-auto mt-9 relative">
+              <small className="capitalize -ml-7 absolute -top-2">Total</small>
+              <p className="text-3xl font-bold">{"2,178"}</p>
+            </div>
+          </div>
+          <div className="relative flex flex-[1] justify-center">
+            <SemiDoughnut percentage={50} />
           </div>
         </div>
-        <div className="relative flex flex-[1] justify-center">
-          <SemiDoughnut percentage={50} />
+        <div className="flex md:flex-col gap-3 justify-center items-center md:justify-start md:w-full">
+          <RecordMiniCard />
+          <RecordMiniCard />
         </div>
-      </div>
-      <div className="flex md:flex-col gap-3 justify-center items-center md:justify-start md:w-full">
-        <RecordMiniCard />
-        <RecordMiniCard />
       </div>
     </div>
   );

@@ -10,7 +10,7 @@ export default function DashBoardLayout({
 }) {
 
   return (
-    <main>
+    <main className="h-screen md:flex md:flex-col">
       <Header />
       <div className="space-y-6 md:flex md:items-center md:px-12 mt-4">
         <div className="flex flex-col md:flex-row items-center space-y-2 md:w-full">
@@ -21,11 +21,11 @@ export default function DashBoardLayout({
             width={80}
             className="object-cover rounded-3xl bg-brand-purple"
           />
-          <div className="ml-4">
-            <h2 className="!mb-0 !text-4xl capitalize font-blogh tracking-[0.46] leading-[34.1px]">
+          <div className="md:ml-4">
+            <h2 className="text-4xl capitalize font-blogh tracking-[0.46] leading-[34.1px]">
               {"spagfest"}
             </h2>
-            <P className="!mb-0">@{"spagfest"}</P>
+            <P className="text-center md:text-left">@{"spagfest"}</P>
           </div>
         </div>
         <div className="divide-x-[1px] divide-gray-900 md:mb-6 flex w-full md:w-auto mx-auto md:ml-auto">
@@ -46,7 +46,7 @@ export default function DashBoardLayout({
           <DashBoardNav />
         </div>
       </div>
-      <div className="mt-6">{children}</div>
+        {children}
     </main>
   );
 }

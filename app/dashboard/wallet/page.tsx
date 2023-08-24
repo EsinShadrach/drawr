@@ -17,16 +17,18 @@ export const metadata :Metadata ={
 
 export default function WalletPage() {
   return (
-    <div className="space-y-4 px-4">
-      <WalletCard />
-      <SeeAllTransactions/>
-      <div className="space-y-6">
-        {
-          // Change key Later
-          transactions.map((transaction) => (
-            <TransactionTile key={transaction} />
-          ))
-        }
+    <div className="mt-6 md:pb-3">
+      <div className="space-y-4 px-4">
+        <WalletCard />
+        <SeeAllTransactions />
+        <div className="space-y-6">
+          {
+            // Change key Later
+            transactions.map((transaction) => (
+              <TransactionTile key={transaction} />
+            ))
+          }
+        </div>
       </div>
     </div>
   );
