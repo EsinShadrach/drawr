@@ -19,6 +19,7 @@ export default function DashBoardLayout({
             alt="user"
             height={80}
             width={80}
+            priority
             className="object-cover rounded-3xl bg-brand-purple"
           />
           <div className="md:ml-4">
