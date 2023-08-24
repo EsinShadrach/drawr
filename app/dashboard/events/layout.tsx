@@ -1,4 +1,4 @@
-import {  EventsNav } from "../components";
+import { EventsNav } from "../components";
 
 export default function EventsLayout({ children }: { children: React.ReactNode }) {
     return (
