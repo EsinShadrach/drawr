@@ -1,3 +1,5 @@
+"use client"
+
 import { P, H3 } from "@/utils/typography";
 import Image from "next/image";
 import { FilledButton } from "@/utils/buttons";
@@ -5,12 +7,12 @@ import { FilledButton } from "@/utils/buttons";
 export default function EventCard() {
   return (
     <div className="bg-brand-purple relative rounded-3xl w-full mx-auto h-56 px-4 py-4 text-white">
-      <div className="z-20 w-full h-full flex flex-col justify-between">
-        <div className="max-w-48">
-          <H3 className="capitalize mb-0 text-4xl text-white font-blogh font-semibold ">
+      <div className="relative z-20 w-full h-full flex flex-col justify-between">
+        <div className="max-w-[10rem]">
+          <h2 className="capitalize text-2xl text-white font-blogh font-semibold tracking-[0.46] leading-[34.1px]">
             {"spagfest raffle event"}
-          </H3>
-          <P>Hosted By {"Olawale Spagfest"}</P>
+          </h2>
+          <small className="text-xs">Hosted By {"Olawale Spagfest"}</small>
         </div>
         <div className="flex justify-between items-center ">
           <P className="capitalize">
@@ -27,13 +29,16 @@ export default function EventCard() {
         </div>
       </div>
 
-      <Image
-        src="/images/person.png"
-        alt=""
-        height={100}
-        width={100}
-        className="absolute bottom-0 right-[25%] object-contain z-10"
-      />
+      <div className="w-40 h-full absolute bottom-0 right-[15%] z-10">
+        <Image
+          src="/images/standing-avatar.png"
+          alt=""
+          fill
+          // height={100}
+          // width={100}
+          className="object-cover"
+        />
+      </div>
     </div>
   );
 }

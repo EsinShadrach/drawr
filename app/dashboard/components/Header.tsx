@@ -1,18 +1,22 @@
 import { BellAlertIcon } from "@heroicons/react/20/solid";
 import React from "react";
 import { H1 } from "./../../../utils/typography";
+import DashBoardNav from './Nav';
 
 export default function Header() {
   return (
-    <header className="h-16 border-b-2 flex items-center w-screen relative px-4">
-      <h1 className="capitalize flex-1 text-center sm:text-left h-fitsm:text-4xl text-3xl font-extrabold ">
+    <header className="h-16 border-b-2 flex items-center relative px-4">
+      <h1 className="capitalize flex-1 text-center md:text-left h-fit text-3xl font-extrabold ">
         Dashboard
       </h1>
+      <div className="hidden md:block flex-1">
+        <DashBoardNav/>
+      </div>
       <BellAlertIcon
         width={35}
         height={35}
-        className="absolute right-3 sm:right-6 self-center ml-auto fill-brand-purple active:scale-95"
+        className="absolute_ right-3_ sm:right-6_ self-center ml-auto fill-brand-purple active:scale-95"
       />
-    </header>
+    </header>                   
   );
 }

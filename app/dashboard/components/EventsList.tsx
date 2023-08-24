@@ -10,7 +10,7 @@ for (let i = 0; i <= 4; i++) {
 
 export default function EventsList() {
   return (
-    <div className="px-3 space-y-[1rem] sm:grid sm:grid-cols-2 lg:grid-cols-3 gap-2 items-center">
+    <div className="px-3 space-y-[1rem] sm:space-y-0 sm:grid sm:grid-cols-2 md:grid-cols-3 sm:gap-2">
       {
         // Change key Later
         cards.map((card) => (

@@ -14,8 +14,6 @@ export const metadata :Metadata ={
     description: "...",
 }
 
-export default function Eventspage({children}: { children: React.ReactNode }) {
+export default function Eventspage() {
   redirect("events/ongoing")
-
- 
 }

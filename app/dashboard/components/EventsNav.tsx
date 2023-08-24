@@ -7,7 +7,7 @@ type Props = {}
 
 export default function EventsNav({}: Props) {
   return (
-    <div className="flex items-center gap-4 justify-around w-full text-center mx-auto mb-6 whitespace-nowrap">
+    <div className="flex flex-[1]_ flex-auto min-w-0 p-4 items-center gap-4 justify-around w-full_ sm:w-auto text-center mx-auto mb-6 whitespace-nowrap">
       <NavLink href="ongoing" className="">
         {({ isActive }) => (
           <div

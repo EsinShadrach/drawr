@@ -5,7 +5,7 @@ interface NavLinkProps {
 }
 
 interface ButtonProps {
-	children: React.ReactNode;
+	children: React.ReactNode | string;
 	className?: string;
 	color?: "purple" | "lemon" | "black" | "transparent";
 	onClick: Function;
