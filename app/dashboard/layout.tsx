@@ -15,7 +15,7 @@ export default function DashBoardLayout({
       <div className="space-y-6 md:flex md:items-center md:px-12 mt-4">
         <div className="flex flex-col md:flex-row items-center space-y-2 md:w-full">
           <Image
-            src="/images/user.jpg "
+            src="/images/user-2.jpg "
             alt="user"
             height={80}
             width={80}
