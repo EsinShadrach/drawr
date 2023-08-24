@@ -7,7 +7,7 @@ type Props = {}
 
 export default function RecordMiniCard() {
   return (
-    <div className="flex-1 flex flex-col justify-between h-44 p-6 text-white bg-black rounded-3xl">
+    <div className="flex-1 flex flex-col justify-between w-full h-44 md:h-full p-6 text-white bg-black rounded-3xl">
       <div className="flex items-center justify-between">
         <div>
           <p className="font-bold">tickets sold</p>

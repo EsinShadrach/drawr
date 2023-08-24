@@ -1,5 +1,8 @@
+"use client"
+
 import { EyeIcon } from '@heroicons/react/20/solid'
 import WalletCardBtns from './WalletCardBtns';
+import { IconButton } from '@/utils/buttons';
 
 export default function WalletCard() {
   return (
@@ -9,7 +12,9 @@ export default function WalletCard() {
           <small className="capitalize text-xs font-bold">total balance</small>
           <p className="text-3xl font-bold">${"3,786"}</p>
         </div>
+        <IconButton onClick={()=>{}}>
         <EyeIcon className='w-6 h-6' />
+        </IconButton>
       </div>
      <WalletCardBtns/>
     </div>

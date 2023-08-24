@@ -27,7 +27,7 @@ export default function WalletPage() {
             <TransactionTile key={transaction} />
           ))
         }
-      eS</div>
+      </div>
     </div>
   );
 }
