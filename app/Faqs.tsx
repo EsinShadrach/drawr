@@ -18,7 +18,7 @@ export function Faqs() {
           <h2
             className={`max-w-[932px] text-black font-aeonik text-[110px] leading-[90px] font-bold -tracking-[5.5px]`}
           >
-            Frequently Asked Questionsz\\
+            Frequently Asked Questions
           </h2>
         </div>
         <Image
